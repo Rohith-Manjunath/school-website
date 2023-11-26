@@ -3,12 +3,13 @@ import logoImage from "../assets/images/logo-2-v2.png";
 
 const Welcome = () => {
   return (
-    <div className=" h-auto flex justify-around mx-auto bg-[#01416f] p-5 text-white ">
-      <div className="flex flex-col items-start justify-center gap-5 w-[50%] ">
+    <div className="h-auto flex flex-col lg:flex-row justify-around mx-auto bg-[#01416f] p-5 text-white">
+      <div className="flex flex-col items-start justify-center gap-5 lg:w-[50%]">
         <div className="flex flex-col gap-1">
-          <h2 className=" text-6xl text-white tracking-[2px]">
+          <h2 className="text-white tracking-[2px] text-5xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
             Welcome to <span className="school-name text-[#fff200]">MIS</span>
           </h2>
+
           <p className="text-[#fff200] text-2xl tracking-[2px] font-semibold">
             Empower. Excel. Educate
           </p>
@@ -22,12 +23,12 @@ const Welcome = () => {
           with us, you'll discover not just a school but a supportive family,
           dedicated to unlocking the full potential of each individual.
         </p>
-        <button className="bg-red-500 font-bold tracking-wider p-2 rounded-md shadow-sm hover:cursor-pointer active:translate-x-1 active:translate-y-1 transition-all duration-100 ">
+        <button className="bg-red-500 font-bold tracking-wider p-2 rounded-md shadow-sm hover:cursor-pointer active:translate-x-1 active:translate-y-1 transition-all duration-100">
           Enroll today
         </button>
       </div>
-      <div className="logo">
-        <img src={logoImage} alt="" className="w-[20rem]" />
+      <div className="logo mt-5 lg:mt-0 hidden lg:flex">
+        <img src={logoImage} alt="website-logo" className="w-[20rem]" />
       </div>
     </div>
   );

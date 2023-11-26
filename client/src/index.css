@@ -22,9 +22,14 @@
 *{
   font-family: 'Poppins';
 }
+
+body,html{
+  overflow-x: hidden;
+}
 body{
   height: 100rem;
   scroll-behavior: smooth;
+
 }
 
 

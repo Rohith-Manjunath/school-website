@@ -3,13 +3,15 @@ import Image from "../assets/images/Children.jpg";
 
 const WhatAreWe = () => {
   return (
-    <div className="flex bg-[#ebebeb] items-center justify-between gap-20 p-20 ">
-      <div className="">
-        <img src={Image} alt="children" className="w-[30rem] rounded-2xl" />
+    <div className="flex flex-col lg:flex-row bg-[#ebebeb] items-center justify-between gap-8 lg:p-20 p-10">
+      <div className="lg:w-1/2">
+        <img src={Image} alt="children" className="w-full rounded-2xl" />
       </div>
-      <div className="w-[60%] flex flex-col gap-5">
+      <div className="w-full lg:w-1/2 flex flex-col gap-5">
         <div className="flex flex-col gap-1">
-          <h2 className="text-5xl tracking-[2px] font-bold">Who We Are?</h2>
+          <h2 className="text-4xl lg:text-5xl tracking-[2px] font-bold">
+            Who We Are?
+          </h2>
           <p className="tracking-[1px] font-semibold">
             At Mysore International School, we are a vibrant community dedicated
             to fostering academic excellence and holistic development.
@@ -24,7 +26,7 @@ const WhatAreWe = () => {
           perspective, our students are not just prepared for exams but equipped
           for life's challenges.
         </p>
-        <button className="text-white p-2 rounded-md font-semibold w-[20%] bg-[#01416f] tracking-wider">
+        <button className="text-white p-2 rounded-md font-semibold w-full lg:w-[40%] bg-[#01416f] tracking-wider">
           Know More
         </button>
       </div>

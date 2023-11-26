@@ -46,21 +46,21 @@ const Carousel = () => {
       >
         <div className="slide">
           <div
-            className="w-full h-[30rem] bg-cover bg-center flex items-center justify-start p-[4rem]"
+            className="w-full h-[30rem] bg-cover bg-center flex items-center justify-start p-[2rem] md:p-[4rem]"
             style={{
               backgroundImage: `url(${Image1})`,
             }}
           >
-            <div className="text-white text-left flex flex-col gap-5 w-[60%] h-auto ml-[2rem] bg-[rgba(211,210,210,0.1)] p-10 rounded-lg">
-              <h1 className="text-4xl font-bold">ABOUT US</h1>
-              <p className="font-bold tracking-[1px]">
+            <div className="text-white text-left flex flex-col gap-3 w-full md:w-[60%] h-auto ml-0 md:ml-[2rem] bg-[rgba(211,210,210,0.1)] p-6 md:p-10 rounded-lg">
+              <h1 className="text-2xl md:text-4xl font-bold">ABOUT US</h1>
+              <p className="font-bold tracking-[1px] text-sm md:text-base">
                 At Mysore International School, we uniquely shape futures
                 through academic excellence and holistic development. Join us
                 for a transformative journey, empowering students for a
-                confident and impactful future
+                confident and impactful future.
               </p>
 
-              <button className="btn  p-2 rounded-md font-semibold w-[20%] bg-[#01416f]">
+              <button className="btn p-2 rounded-md font-semibold w-[30%] md:w-[20%] bg-[#01416f] text-sm md:text-base">
                 Know More
               </button>
             </div>
@@ -68,19 +68,19 @@ const Carousel = () => {
         </div>
         <div className="slide">
           <div
-            className="w-full h-[30rem] bg-cover bg-center flex items-center justify-start p-[4rem]"
+            className="w-full h-[30rem] bg-cover bg-center flex items-center justify-start p-[2rem] md:p-[4rem]"
             style={{
               backgroundImage: `url(${Image2})`,
             }}
           >
-            <div className="text-white text-left flex flex-col gap-5 w-[60%] h-auto ml-[2rem] bg-[rgba(211,210,210,0.3)] p-10 rounded-lg">
-              <h1 className="text-4xl font-bold">OUR TEAM</h1>
-              <p className="font-bold tracking-[1px]">
+            <div className="text-white text-left flex flex-col gap-3 w-full md:w-[60%] h-auto ml-0 md:ml-[2rem] bg-[rgba(211,210,210,0.3)] p-6 md:p-10 rounded-lg">
+              <h1 className="text-2xl md:text-4xl font-bold">OUR TEAM</h1>
+              <p className="font-bold tracking-[1px] text-sm md:text-base">
                 At Mysore International School, our committed team nurtures
                 academic excellence and personal growth. Meet the passionate
                 educators shaping confident global citizens.
               </p>
-              <button className="btn  p-2 rounded-md font-semibold w-[20%] bg-[#01416f]">
+              <button className="btn p-2 rounded-md font-semibold w-[30%] md:w-[20%] bg-[#01416f] text-sm md:text-base">
                 Know More
               </button>
             </div>
@@ -88,20 +88,20 @@ const Carousel = () => {
         </div>
         <div className="slide">
           <div
-            className="w-full h-[30rem] bg-cover bg-center flex items-center justify-start p-[4rem]"
+            className="w-full h-[30rem] bg-cover bg-center flex items-center justify-start p-[2rem] md:p-[4rem]"
             style={{
               backgroundImage: `url(${Image3})`,
             }}
           >
-            <div className="text-white text-left flex flex-col gap-5 w-[60%] h-auto ml-[2rem] bg-[rgba(211,210,210,0.1)] p-10 rounded-lg">
-              <h1 className="text-4xl font-bold">WE BELEIVE</h1>
-              <p className="font-bold tracking-[1px]">
+            <div className="text-white text-left flex flex-col gap-3 w-full md:w-[60%] h-auto ml-0 md:ml-[2rem] bg-[rgba(211,210,210,0.1)] p-6 md:p-10 rounded-lg">
+              <h1 className="text-2xl md:text-4xl font-bold">WE BELIEVE</h1>
+              <p className="font-bold tracking-[1px] text-sm md:text-base">
                 At Mysore International School, we believe in the transformative
                 power of education. Our commitment is to nurture each student's
                 potential, providing a foundation for a brighter, empowered
                 future.
               </p>
-              <button className="btn  p-2 rounded-md font-semibold w-[20%] bg-[#01416f]">
+              <button className="btn p-2 rounded-md font-semibold w-[30%] md:w-[20%] bg-[#01416f] text-sm md:text-base">
                 Know More
               </button>
             </div>

@@ -4,33 +4,34 @@ import Events from "./Events";
 
 const NewsAndEvents = () => {
   const [show, setShow] = useState(true);
-  const [bg, setBG] = useState("ebebeb"); // Enclose string in quotes
 
   const setBackground = () => {
     setShow(true);
-    setBG("c0bcbc"); // Enclose string in quotes
   };
 
   const setBackgroundChange = () => {
     setShow(false);
-    setBG("c0bcbc"); // Enclose string in quotes
   };
 
   return (
-    <div className={`bg-[#${bg}] text-[#01416f] py-[5rem]`}>
+    <div className={`text-[#384ccf] py-[5rem] h-aut`}>
       <div className="flex items-center justify-around">
-        <h4
+        <button
           onClick={setBackground}
-          className={`text-2xl font-bold w-1/2 text-center hover:cursor-pointer hover:bg-[#c0bcbc] focus:bg-[#c0bcbc] focus:outline-none`}
+          className={`text-2xl w-1/2 text-center hover:cursor-pointer ${
+            show ? "bg-[#c0bcbc]" : ""
+          } focus:bg-[#c0bcbc] focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200`}
         >
-          News
-        </h4>
-        <h4
+          NEWS
+        </button>
+        <button
           onClick={setBackgroundChange}
-          className={`text-2xl font-bold w-1/2 text-center hover:cursor-pointer hover:bg-[#c0bcbc] focus:bg-[#c0bcbc] focus:outline-none`}
+          className={`text-2xl w-1/2 text-center hover:cursor-pointer ${
+            !show ? "bg-[#c0bcbc]" : ""
+          } focus:bg-[#c0bcbc] focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200`}
         >
-          Events
-        </h4>
+          EVENTS
+        </button>
       </div>
 
       {show ? <News /> : <Events />}

@@ -16,14 +16,14 @@ export const data = [
     src: ICON2,
     title: "Unity in Leadership",
     description:
-      "Mysore International School fosters unity in leadership, encouraging collaboration, resilience, and essential skills for a future of influence. Discover a unique educational ethos at Mysore International School, where unity in leadership extends beyond classrooms. Our emphasis on collaboration and resilience equips students with the essential skills needed to navigate an ever-changing world.",
+      "Mysore International School fosters unity in leadership, encouraging collaboration, resilience, and essential skills for a future of influence. Discover a unique educational ethos at Mysore International School, where unity in leadership extends beyond classrooms. Our emphasis on collaboration and resilience equips students with the essential skills needed to navigate.",
   },
   {
     id: 3,
     src: ICON3,
-    title: "Transformative Learning Odyssey",
+    title: "Transformative Learning",
     description:
-      "Embark on a transformative education odyssey at Mysore International School, where impactful learning shapes well-rounded, empowered individuals. Embark on an educational odyssey at Mysore International School, where impactful learning shapes well-rounded, empowered individuals. Our commitment goes beyond textbooks, fostering an environment where each student discovers their unique potential.",
+      "Embark on a transformative education odyssey at Mysore International School, where impactful learning shapes well-rounded, empowered individuals. Embark on an educational odyssey at Mysore International School, where impactful learning shapes well-rounded, empowered individuals.",
   },
   {
     id: 4,
