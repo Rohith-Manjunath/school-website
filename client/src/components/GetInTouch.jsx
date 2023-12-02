@@ -1,11 +1,13 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
+import { BsYoutube } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const GetInTouch = () => {
   return (
-    <div className="flex flex-col md:flex-row p-4 lg:p-10 bg-tertiary">
-      <div className="lg:w-1/2 bg-white text-white rounded-lg p-6 lg:py-[3rem] lg:px-8 flex flex-col items-start gap-6 shadow-lg p-4 mb-4 text-black">
+    <div className="flex flex-col md:flex-row p-4 lg:p-10 bg-tertiary bg-center ">
+      <div className="lg:w-1/2 bg-white text-white rounded-lg p-6 lg:py-[3rem] lg:px-8 flex flex-col items-start gap-6 shadow-lg p-4 mb-4 text-black ">
         <h1 className="text-3xl font-bold text-black">Get in touch!</h1>
         <p className="text-black">
           Whether you have inquiries, suggestions, or would simply like to reach
@@ -34,8 +36,10 @@ const GetInTouch = () => {
             placeholder="Message"
             rows={5}
           />
-          <button className="bg-primary text-secondary px-8 py-[6px] rounded-md transition-all duration-300 hover:border outline-none font-bold hover:bg-secondary
-          hover:border-primary hover:text-primary hover:scale-95">
+          <button
+            className="bg-primary text-secondary px-8 py-[6px] rounded-md transition-all duration-300 hover:border outline-none font-bold hover:bg-secondary
+          hover:border-primary hover:text-primary hover:scale-95"
+          >
             Submit
           </button>
         </form>
@@ -55,8 +59,7 @@ const GetInTouch = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.278936101485!2d76.58416887506405!3d12.229383088021931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf644f7358cc0d%3A0xe4fb32672e467b68!2sMount%20Litera%20Zee%20School!5e0!3m2!1sen!2sin!4v1701524068815!5m2!1sen!2sin"
             allowFullScreen=""
           ></iframe>
-</div>
-
+        </div>
 
         <p>
           Our campus offers a conducive environment for learning and personal
@@ -64,6 +67,20 @@ const GetInTouch = () => {
           facilities, and feel the vibrant atmosphere that makes our school a
           unique and enriching place for education.
         </p>
+        <div>
+          <h2 className="text-2xl font-semibold">Social Media</h2>
+          <div className="flex gap-3 mt-3">
+            <FaInstagram class="text-4xl hover:cursor-pointer hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md instagram-icon"></FaInstagram>
+            <Link to="https://www.facebook.com/mlzsmys/">
+              <FaFacebook className="text-4xl hover:cursor-pointer hover:bg-blue-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md"></FaFacebook>
+            </Link>
+
+            <RiTwitterXLine className="text-4xl hover:cursor-pointer hover:bg-black transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md"></RiTwitterXLine>
+            <Link to="">
+              <BsYoutube className="text-4xl hover:cursor-pointer hover:bg-red-600 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md"></BsYoutube>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

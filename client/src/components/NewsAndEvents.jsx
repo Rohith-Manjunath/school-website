@@ -21,16 +21,16 @@ const NewsAndEvents = () => {
         <button
           onClick={setBackground}
           className={`text-2xl w-1/2 text-center hover:cursor-pointer ${
-            show ? "bg-[#c0bcbc]" : ""
-          } focus:bg-[#fff] focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200 `}
+            show ? "bg-tertiary" : "bg-white"
+          } focus:bg-tertiary focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200 `}
         >
           NEWS
         </button>
         <button
           onClick={setBackgroundChange}
           className={`text-2xl w-1/2 text-center hover:cursor-pointer ${
-            !show ? "bg-[#c0bcbc]" : ""
-          } focus:bg-[#fff] focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200`}
+            !show ? "bg-tertiary" : "bg-white"
+          } focus:bg-tertiary focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200`}
         >
           EVENTS
         </button>

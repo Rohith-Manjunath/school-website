@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { data } from "../data/info.jsx";
+import Image from "../assets/Background/Curve_Line_2.svg";
 
 const Reason = () => {
   const [expandedItems, setExpandedItems] = useState([]);
@@ -13,7 +14,12 @@ const Reason = () => {
   };
 
   return (
-    <div className="bg-[#01416f] flex flex-col items-start justify-center gap-1 sm:p-4 md:p-3 lg:p-5 xl:p-10">
+    <div
+      className="bg-[#01416f] flex flex-col items-start justify-center gap-1 sm:p-4 md:p-3 lg:p-5 xl:p-10 bg-cover"
+      style={{
+        backgroundImage: `url(${Image})`,
+      }}
+    >
       <p className="text-white text-xl pl-6">Reason to pursue</p>
       <h2 className="text-4xl text-[#fff200] font-semibold tracking-wider pl-6">
         MYSURU INTERNATIONAL SCHOOL

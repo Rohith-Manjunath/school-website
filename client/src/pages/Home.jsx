@@ -6,6 +6,7 @@ import Reason from "../components/Reason";
 import NewsAndEvents from "../components/NewsAndEvents";
 import Schedule from "../components/Schedule";
 import GetInTouch from "../components/GetInTouch";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <NewsAndEvents />
       <Schedule />
       <GetInTouch />
+      <Footer />
     </div>
   );
 };
