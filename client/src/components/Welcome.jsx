@@ -1,9 +1,13 @@
 import React from "react";
 import logoImage from "../assets/images/logo-2-v2.png";
+import Image from "../assets/Background/ss1.svg";
 
 const Welcome = () => {
   return (
-    <div className="h-auto flex flex-col lg:flex-row justify-around mx-auto bg-[#01416f] p-5 text-white">
+    <div className="h-auto flex flex-col lg:flex-row justify-around mx-auto bg-[#01416f] p-5 text-white bg-cover"
+    style={{
+      backgroundImage: `url(${Image})`,
+    }}>
       <div className="flex flex-col items-start justify-center gap-5 lg:w-[50%]">
         <div className="flex flex-col gap-1">
           <h2 className="text-white tracking-[2px] text-5xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">

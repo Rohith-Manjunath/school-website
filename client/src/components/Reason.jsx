@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { data } from "../data/info.jsx";
-import Image from "../assets/Background/Curve_Line_2.svg";
+import Image from "../assets/Background/bg1.svg";
 
 const Reason = () => {
   const [expandedItems, setExpandedItems] = useState([]);
