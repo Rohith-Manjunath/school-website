@@ -28,7 +28,7 @@ const Footer = () => {
             to="https://maps.app.goo.gl/8cqpSDwtusGQiUNp8"
             className="hover:translate-x-2 transition-all duration-200"
           >
-            Direction >
+            Direction &gt;
           </Link>
 
           <div className="mt-5 flex flex-col gap-3">
