@@ -4,6 +4,8 @@ import Welcome from "../components/Welcome";
 import WhatAreWe from "../components/WhatAreWe";
 import Reason from "../components/Reason";
 import NewsAndEvents from "../components/NewsAndEvents";
+import Schedule from "../components/Schedule";
+import GetInTouch from "../components/GetInTouch";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <WhatAreWe />
       <Reason />
       <NewsAndEvents />
+      <Schedule />
+      <GetInTouch />
     </div>
   );
 };

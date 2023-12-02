@@ -8,7 +8,7 @@ const News = () => {
       {data2.map((item) => (
         <div
           key={item.id}
-          className="card w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-8 p-4 border border-slate-400 rounded-lg shadow-xl transform transition-all duration-500 hover:cursor-pointer hover:shadow-2xl hover:translate-x-[-2px] hover:translate-y-[-2px]"
+          className="card w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-8 p-4 border border-slate-400 rounded-lg shadow-xl transform transition-all duration-500 hover:cursor-pointer hover:shadow-2xl hover:translate-x-[-2px] hover:translate-y-[-2px] bg-white"
         >
           <img
             src={item.src}
