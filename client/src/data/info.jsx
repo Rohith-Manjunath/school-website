@@ -1,7 +1,7 @@
-import ICON1 from "../assets/images/ribbon.png";
-import ICON2 from "../assets/images/team-leader.png";
-import ICON3 from "../assets/images/knowledge.png";
-import ICON4 from "../assets/images/idea.png";
+import ICON1 from "../assets/images/knowledge.svg";
+import ICON2 from "../assets/images/leadership.svg";
+import ICON3 from "../assets/images/idea.svg";
+import ICON4 from "../assets/images/student.svg";
 
 export const data = [
   {

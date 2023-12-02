@@ -13,12 +13,12 @@ const News = () => {
           <img
             src={item.src}
             alt=""
-            className="w-full h-40 sm:h-48 object-cover rounded-lg"
+            className="w-full h-40 sm:h-38 object-cover rounded-lg mb-[1rem]"
           />
-          <span className="p-2 text-xs">{item.date}</span>
-          <h2 className="p-2 text-lg">{item.title}</h2>
-          <h3 className="p-2 text-sm">{item.author}</h3>
-          <Link className="p-2 tracking-widest">READ MORE</Link>
+          <span className="pt-2 pb-2 text-xs underline">{item.date}</span>
+          <h2 className="pt-2 pb-2 text-lg">{item.title}</h2>
+          <h3 className="pt-[0.1rem] pb-[0.1rem] text-sm">{item.author}</h3>
+          <Link className="pt-[0.1rem] pb-[0.1rem] text-xs tracking-widest">Read More</Link>
         </div>
       ))}
     </div>

@@ -15,7 +15,7 @@ const NewsAndEvents = () => {
 
   return (
     <div
-      className={`text-[#384ccf] h-auto border border-grey m-[2rem] rounded-lg shadow-md bg-[#e4e4e4]`}
+      className={`text-[#384ccf] h-auto border border-grey m-[4rem] rounded-lg shadow-md bg-tertiary`}
     >
       <div className="flex items-center justify-around">
         <button
