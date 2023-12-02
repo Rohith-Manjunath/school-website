@@ -8,7 +8,7 @@ const Events = () => {
       {data3.map((item) => (
         <div
           key={item.id}
-          className="card flex flex-col h-[24rem] justify-between border border-slate-200 font-extrabold text-center mb-8 transition-transform transform hover:shadow-lg hover:cursor-pointer hover:-translate-y-2 sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/5 rounded-md bg-white"
+          className="card flex flex-col h-[24rem] justify-around border border-slate-200 font-extrabold text-center mb-8 transition-transform transform hover:shadow-lg hover:cursor-pointer hover:-translate-y-2 sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/5 rounded-md bg-white"
         >
           <h3 className="underline underline-offset-8 p-4">{item.title}</h3>
           <div className="w-full p-10 bg-blue-600 text-white">

@@ -14,14 +14,14 @@ export const data2 = [
     id: 2,
     src: IMAGE2,
     date: "Nov 18 2023 1:00 PM",
-    title: "Artistic Expressions Showcase",
+    title: "Artistic Showcase",
     author: "Author",
   },
   {
     id: 3,
     src: IMAGE3,
     date: "Nov 18 2023 1:00 PM",
-    title: "Sports Carnival Spectacle",
+    title: "Sports Spectacle",
     author: "Author",
   },
 ];

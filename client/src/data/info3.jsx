@@ -5,23 +5,23 @@ import IMAGE3 from "../assets/NewsAndEventsImages/three.png";
 export const data3 = [
   {
     id: 1,
-    time: "all day",
+    time: "Duration : All day",
     title: "ES House Event: Yoga",
     date: "WED - NOV",
     number: "22",
   },
   {
     id: 2,
-    time: "all day",
-    title: "ES House Event: Yoga",
+    time: "Duration : 10am - 11am",
+    title: "ES House Event: Flag Hoisting",
     date: "WED - NOV",
-    number: "22",
+    number: "24",
   },
   {
     id: 3,
-    time: "all day",
-    title: "ES House Event: Yoga",
+    time: "Duration : 10am - 2pm",
+    title: "PTM",
     date: "WED - NOV",
-    number: "22",
+    number: "28",
   },
 ];

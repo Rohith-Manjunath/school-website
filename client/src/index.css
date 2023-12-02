@@ -10,8 +10,6 @@
   /* Add more formats if needed */
 }
 
-
-
 :root{
   --primary:#01416f;
   --secondary:#ebebeb;
@@ -27,14 +25,13 @@ body,html{
   overflow-x: hidden;
 }
 body{
-  height: 100rem;
+  height: 100vh;
   scroll-behavior: smooth;
 
 }
-
-
-
 .school-name{
   font-family: "myfont";
 }
-
+.transition-max-height {
+  transition: max-height 0.3s ease-in-out;
+}
