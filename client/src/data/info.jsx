@@ -1,4 +1,4 @@
-import ICON1 from "../assets/images/knowledge.png";
+import ICON1 from "../assets/images/acheivment.svg";
 import ICON2 from "../assets/images/leadership.svg";
 import ICON3 from "../assets/images/idea.svg";
 import ICON4 from "../assets/images/student.svg";

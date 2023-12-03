@@ -11,8 +11,8 @@ const Footer = () => {
       className="bg-primary text-white px-5 py-10 text-[12px] bg-cover"
       style={{ backgroundImage: `url(${Image2})` }}
     >
-      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center gap-10">
-        <div className="w-full lg:w-1/4 flex flex-col">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-around items-center gap-10">
+        <div className="flex flex-col">
           <img
             src={Image}
             alt="website-logo"
@@ -33,9 +33,15 @@ const Footer = () => {
             Direction &gt;
           </Link>
 
-          <div className="mt-5 flex flex-col gap-3">
+          <div className="mt-5 flex flex-col">
             <p>PH : 0821 2971010</p>
             <p>Mobile : 8884 300 400</p>
+            <Link
+              to="https://maps.app.goo.gl/8cqpSDwtusGQiUNp8"
+              className="hover:translate-x-2 transition-all duration-200 mt-3 lg:mt-0"
+            >
+              Call Us &gt;
+            </Link>
           </div>
         </div>
         <div className="w-full lg:w-auto flex flex-col gap-2 items-start justify-start mt-5 lg:mt-0">
