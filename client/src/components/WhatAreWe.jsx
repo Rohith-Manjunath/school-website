@@ -1,11 +1,10 @@
-import React from "react";
 import Image from "../assets/images/Children.jpg";
 
 const WhatAreWe = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-[#ebebeb] items-center justify-between gap-8 lg:p-20 p-10">
       <div className="lg:w-1/2">
-        <img src={Image} alt="children" className="w-full rounded-2xl" />
+        <img src={Image} alt="Students" className="w-full rounded-2xl" />
       </div>
       <div className="w-full lg:w-1/2 flex flex-col gap-5">
         <div className="flex flex-col gap-1">
@@ -24,9 +23,9 @@ const WhatAreWe = () => {
           skills. We are a close-knit community that values collaboration,
           diversity, and personal growth. As we embrace a future-driven
           perspective, our students are not just prepared for exams but equipped
-          for life's challenges.
+          for life&#39;s challenges.
         </p>
-        <button className="text-white p-2 rounded-md font-semibold w-full lg:w-[40%] bg-[#01416f] tracking-wider">
+        <button className="text-white p-2 rounded-md font-semibold w-full lg:w-[40%] bg-[#01416f] tracking-wider hover:scale-110 hover:bg-tertiary hover:border hover:border-slate-500 hover:text-primary transition-all duration-300">
           Know More
         </button>
       </div>

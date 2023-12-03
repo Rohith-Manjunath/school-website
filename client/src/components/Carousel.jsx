@@ -60,7 +60,7 @@ const Carousel = () => {
                     {item.description}
                   </p>
 
-                  <button className="btn p-2 rounded-md font-semibold w-[30%] md:w-[20%] bg-[#01416f] text-sm md:text-base">
+                  <button className="btn p-2 rounded-md font-semibold w-[30%] md:w-[20%] bg-[#01416f] text-sm md:text-base hover:scale-110  hover:borde trasnition-all duration-300">
                     Know More
                   </button>
                 </div>

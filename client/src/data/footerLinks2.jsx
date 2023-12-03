@@ -1,5 +1,5 @@
 export const links2 = [
   { id: 1, title: "Calender & Schedules" },
   { id: 2, title: "Carrier" },
-  { id: 1, title: "Digital Library" },
+  { id: 3, title: "Digital Library" },
 ];

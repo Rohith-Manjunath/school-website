@@ -1,12 +1,13 @@
-import React from "react";
 import Image from "../assets/Background/bg3.svg";
 
 const Schedule = () => {
   return (
-    <div className="flex justify-center bg-primary text-white font-bold p-4 lg:p-12 text-center bg-cover"
-    style={{
-      backgroundImage: `url(${Image})`,
-    }}>
+    <div
+      className="flex justify-center bg-primary text-white font-bold p-4 lg:p-12 text-center bg-cover"
+      style={{
+        backgroundImage: `url(${Image})`,
+      }}
+    >
       <h2 className="text-xl lg:text-2xl  lg:px-8 py-2 lg:py-3">
         Schedule a visit at Mysore International School
       </h2>

@@ -1,5 +1,4 @@
-import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { BsYoutube } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -7,14 +6,14 @@ import { Link } from "react-router-dom";
 const GetInTouch = () => {
   return (
     <div className="flex flex-col md:flex-row p-4 lg:p-10 bg-tertiary bg-center ">
-      <div className="lg:w-1/2 bg-white text-white rounded-lg p-6 lg:py-[3rem] lg:px-8 flex flex-col items-start gap-6 shadow-lg p-4 mb-4 text-black ">
+      <div className="lg:w-1/2 bg-white rounded-lg lg:py-[3rem] lg:px-8 flex flex-col items-start gap-6 shadow-lg p-4 mb-4 text-black ">
         <h1 className="text-3xl font-bold text-black">Get in touch!</h1>
         <p className="text-black">
           Whether you have inquiries, suggestions, or would simply like to reach
           out, we welcome the opportunity to engage with you. Our team is here
           to provide the information you need and ensure your experience with us
-          is seamless. Reach out today and let's start a conversation towards
-          academic excellence and a promising future.
+          is seamless. Reach out today and let&#39;s start a conversation
+          towards academic excellence and a promising future.
         </p>
         <form className="flex flex-col w-full gap-4">
           <input
@@ -70,7 +69,7 @@ const GetInTouch = () => {
         <div>
           <h2 className="text-2xl font-semibold">Social Media</h2>
           <div className="flex gap-3 mt-3">
-            <FaInstagram class="text-4xl hover:cursor-pointer hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md instagram-icon"></FaInstagram>
+            <FaInstagram className="text-4xl hover:cursor-pointer hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md instagram-icon"></FaInstagram>
             <Link to="https://www.facebook.com/mlzsmys/">
               <FaFacebook className="text-4xl hover:cursor-pointer hover:bg-blue-500 transition-all duration-300 hover:scale-110 hover:text-white p-2 rounded-md"></FaFacebook>
             </Link>

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { data } from "../data/info.jsx";
-import Image from "../assets/Background/bg1.svg";
+import Image from "../assets/Background/bg1.png";
 
 const Reason = () => {
   const [expandedItems, setExpandedItems] = useState([]);
@@ -30,10 +30,15 @@ const Reason = () => {
 
           return (
             <div
-              className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 flex flex-col p-5 sm:p-2 gap-5 items-start justify-center"
+              className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/4 flex flex-col p-5 sm:p-2 gap-5 items-start justify-start"
               key={item.id}
             >
-              <img src={item.src} alt="icons" className="w-[30%] " />
+              <img
+                src={item.src}
+                alt={item.title}
+                className="w-[30%] h-[8rem] "
+                loading="lazy"
+              />
               <h4 className="font-bold text-xl">{item.title}</h4>
               <div
                 className={`text-start overflow-hidden transition-max-height ${
