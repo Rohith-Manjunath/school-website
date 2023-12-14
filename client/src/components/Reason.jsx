@@ -15,13 +15,13 @@ const Reason = () => {
 
   return (
     <div
-      className="bg-[#01416f] flex flex-col items-start justify-center gap-1 sm:p-4 md:p-3 lg:p-5 xl:p-10 bg-cover"
+      className="bg-[#01416f] flex flex-col items-start justify-center gap-1 sm:p-4 md:p-3 lg:p-5 xl:p-10 bg-cover max-md:pt-10 "
       style={{
         backgroundImage: `url(${Image})`,
       }}
     >
       <p className="text-white text-xl pl-6">Reason to pursue</p>
-      <h2 className="text-4xl text-[#fff200] font-semibold tracking-wider pl-6">
+      <h2 className="text-4xl max-sm:text-2xl max-md:text-3xl  text-[#fff200] font-semibold tracking-wider pl-6">
         MYSURU INTERNATIONAL SCHOOL
       </h2>
       <div className="flex flex-wrap w-[100%] justify-around text-white p-[1rem] mt-[2rem]">
@@ -36,7 +36,7 @@ const Reason = () => {
               <img
                 src={item.src}
                 alt={item.title}
-                className="w-[30%] h-[8rem] "
+                className="w-[20%] h-[6rem] "
                 loading="lazy"
               />
               <h4 className="font-bold text-xl">{item.title}</h4>

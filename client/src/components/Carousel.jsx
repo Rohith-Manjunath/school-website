@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import { carouselData } from "../data/carouselData";
+import Button from "./Button";
 
 const Carousel = () => {
   let slickSlider;
@@ -52,17 +53,15 @@ const Carousel = () => {
                   backgroundImage: `url(${item.image})`,
                 }}
               >
-                <div className="text-white text-left flex flex-col gap-3 w-full md:w-[60%] h-auto ml-0 md:ml-[2rem] bg-[rgba(211,210,210,0.1)] p-6 md:p-10 rounded-lg">
-                  <h1 className="text-2xl md:text-4xl font-bold text-primary">
+                <div className="text-white text-left flex flex-col gap-6 w-full md:w-[60%] h-auto ml-0 md:ml-[2rem] bg-[rgba(211,210,210,0.1)] p-6 md:p-10 rounded-lg">
+                  <h1 className="text-2xl md:text-4xl font-bold text-white">
                     {item.title}
                   </h1>
-                  <p className="font-bold tracking-[1px] text-sm md:text-base text-primary">
+                  <p className="font-bold tracking-[1px] text-sm md:text-base text-white">
                     {item.description}
                   </p>
 
-                  <button className="btn p-2 rounded-md font-semibold w-[30%] md:w-[20%] bg-[#01416f] text-sm md:text-base hover:scale-110  hover:borde trasnition-all duration-300">
-                    Know More
-                  </button>
+                  <Button title="Know More" width="1/2" w="full" />
                 </div>
               </div>
             </div>

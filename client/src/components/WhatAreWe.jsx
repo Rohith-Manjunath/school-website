@@ -1,4 +1,5 @@
 import Image from "../assets/images/Children.jpg";
+import Button from "./Button";
 
 const WhatAreWe = () => {
   return (
@@ -8,7 +9,7 @@ const WhatAreWe = () => {
       </div>
       <div className="w-full lg:w-1/2 flex flex-col gap-5">
         <div className="flex flex-col gap-1">
-          <h2 className="text-4xl lg:text-5xl tracking-[2px] font-bold">
+          <h2 className="text-4xl max-md:text-2xl lg:text-5xl tracking-[2px] font-bold">
             Who We Are?
           </h2>
           <p className="tracking-[1px] font-semibold">
@@ -25,9 +26,7 @@ const WhatAreWe = () => {
           perspective, our students are not just prepared for exams but equipped
           for life&#39;s challenges.
         </p>
-        <button className="text-white p-2 rounded-md font-semibold w-full lg:w-[40%] bg-[#01416f] tracking-wider hover:scale-110 hover:bg-tertiary hover:border hover:border-slate-500 hover:text-primary transition-all duration-300">
-          Know More
-        </button>
+        <Button title="Know More" width="1/4" />
       </div>
     </div>
   );

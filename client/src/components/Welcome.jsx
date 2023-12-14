@@ -1,5 +1,6 @@
 import logoImage from "../assets/images/logo-2-v2.png";
 import Image from "../assets/Background/ss1.png";
+import Button from "./Button";
 
 const Welcome = () => {
   return (
@@ -11,7 +12,7 @@ const Welcome = () => {
     >
       <div className="flex flex-col items-start justify-center gap-5 lg:w-[50%]">
         <div className="flex flex-col gap-1">
-          <h2 className="text-white tracking-[2px] text-5xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          <h2 className="text-white tracking-[2px] max-md:text-3xl text-5xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
             Welcome to <span className="school-name text-[#fff200]">MIS</span>
           </h2>
 
@@ -29,9 +30,7 @@ const Welcome = () => {
           school but a supportive family, dedicated to unlocking the full
           potential of each individual.
         </p>
-        <button className="bg-red-500 font-bold tracking-wider p-2 rounded-md shadow-sm hover:cursor-pointer active:translate-x-1 active:translate-y-1 transition-all duration-300 hover:bg-transparent hover:border hover:scale-110 hover:text-white">
-          Enroll today
-        </button>
+        <Button title="Enroll Today" bg="bg-red-500" />
       </div>
       <div className="logo mt-5 lg:mt-0 hidden lg:flex">
         <img

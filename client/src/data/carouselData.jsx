@@ -1,6 +1,6 @@
-import Image1 from "../assets/images/chairs.jpg";
-import Image2 from "../assets/images/football.jpg";
-import Image3 from "../assets/images/library.jpg";
+import Image1 from "../assets/CarouselImages/children_kannada_rajostsava.jpg";
+import Image2 from "../assets/CarouselImages/children_outing.jpg";
+import Image3 from "../assets/CarouselImages/principle_and_children.jpg";
 
 export const carouselData = [
   {

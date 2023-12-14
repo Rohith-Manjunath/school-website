@@ -11,12 +11,12 @@ const Footer = () => {
       className="bg-primary text-white px-5 py-10 text-[12px] bg-cover"
       style={{ backgroundImage: `url(${Image2})` }}
     >
-      <div className="container mx-auto flex flex-col lg:flex-row justify-around items-center gap-10">
+      <div className="container mx-auto flex flex-row max-lg:flex-col justify-around gap-10">
         <div className="flex flex-col">
           <img
             src={Image}
             alt="website-logo"
-            className="w-[5rem]"
+            className="w-[7rem] h-[9rem] max-lg:self-center max-lg:"
             loading="lazy"
           />
         </div>
@@ -72,7 +72,7 @@ const Footer = () => {
           <FaRegCopyright />
           Mysore International School 2023 | All rights reserved | Legal Notice
         </div>
-        <div className="w-full lg:w-1/2 text-end mt-3 lg:mt-0 ">
+        <div className="w-full lg:w-1/2 text-end mt-3 lg:mt-0 max-lg:text-left">
           Developed by webstor labs.
         </div>
       </div>
