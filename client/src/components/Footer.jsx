@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaRegCopyright } from "react-icons/fa";
 import { links } from "../data/footerLinks";
 import { links2 } from "../data/footerLinks2";
-import Image2 from "../assets/Background/Curve_Line.png";
+import Image2 from "../assets/Background/Curve_Line_1.svg";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
           <img
             src={Image}
             alt="website-logo"
-            className="w-[7rem] h-[9rem] max-lg:self-center max-lg:"
+            className="w-[9rem] max-lg:self-center max-lg:"
             loading="lazy"
           />
         </div>

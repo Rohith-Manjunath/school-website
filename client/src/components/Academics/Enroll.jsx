@@ -1,6 +1,6 @@
 const Enroll = () => {
   return (
-    <div className="flex items-center justify-center h-auto gap-16">
+    <div className="flex items-center justify-center h-auto gap-16 mb-20">
       <div className="w-[40%] flex flex-col gap-5">
         <div className=" flex flex-col items-start justify-center  gap-2 font-semibold">
           <h2 className="capitalize text-orange-500 border-b-2">
@@ -36,7 +36,7 @@ const Enroll = () => {
           </span>
         </div>
       </div>
-      <div className="w-[50%] p-8 bg-blue-500 rounded-lg flex flex-col items-center justify-between">
+      <div className="w-[50%] p-8 bg-[#580b57] rounded-lg flex flex-col items-center justify-between">
         <h2 className="uppercase text-center text-white text-2xl font-bold mb-5">
           enrollment form
         </h2>

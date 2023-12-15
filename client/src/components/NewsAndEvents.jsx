@@ -15,22 +15,22 @@ const NewsAndEvents = () => {
 
   return (
     <div
-      className={`text-[#384ccf] h-auto border border-grey m-[4rem] rounded-lg shadow-md bg-tertiary`}
+      className={`text-[#8a2d87] h-auto border border-grey m-[4rem] rounded-lg shadow-md bg-[#d3d3d3]`}
     >
       <div className="flex items-center justify-around">
         <button
           onClick={setBackground}
           className={`text-2xl w-1/2 text-center hover:cursor-pointer ${
-            show ? "bg-tertiary" : "bg-white"
-          } focus:bg-tertiary focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200 `}
+            show ? "bg-[#d3d3d3]" : "bg-white"
+          } focus:bg-[#d3d3d3] focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200 `}
         >
           NEWS
         </button>
         <button
           onClick={setBackgroundChange}
           className={`text-2xl w-1/2 text-center hover:cursor-pointer ${
-            !show ? "bg-tertiary" : "bg-white"
-          } focus:bg-tertiary focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200`}
+            !show ? "bg-[#d3d3d3]" : "bg-white"
+          } focus:bg-[#d3d3d3] focus:outline-slate-500 font-extrabold p-2 m-[1px] duration-200`}
         >
           EVENTS
         </button>

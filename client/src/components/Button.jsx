@@ -8,7 +8,7 @@ const Button = (props) => {
     >
       <button
         className={`p-2 ${
-          bg ? `${bg}` : "bg-primary"
+          bg ? `${bg}` : "bg-[#580b57]"
         } text-white font-semibold w-full rounded -translate-x-1 -translate-y-1 active:translate-x-0 active:translate-y-0 transition-all duration-200 tracking-widest`}
       >
         {title}

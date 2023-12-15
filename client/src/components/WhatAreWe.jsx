@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const WhatAreWe = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-[#ebebeb] items-center justify-between gap-8 lg:p-20 p-10">
+    <div className="flex flex-col lg:flex-row bg-[#d3d3d3] border border-y-[#8a2d87] items-center justify-between gap-8 lg:p-20 p-10 text-[#580b57]">
       <div className="lg:w-1/2">
         <img src={Image} alt="Students" className="w-full rounded-2xl" />
       </div>

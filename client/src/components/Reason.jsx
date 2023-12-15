@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { data } from "../data/info.jsx";
-import Image from "../assets/Background/bg1.png";
+import Image from "../assets/Background/background_2.svg";
 
 const Reason = () => {
   const [expandedItems, setExpandedItems] = useState([]);
@@ -21,7 +21,7 @@ const Reason = () => {
       }}
     >
       <p className="text-white text-xl pl-6">Reason to pursue</p>
-      <h2 className="text-4xl max-sm:text-2xl max-md:text-3xl  text-[#fff200] font-semibold tracking-wider pl-6">
+      <h2 className="text-4xl max-sm:text-2xl max-md:text-3xl text-white font-semibold tracking-wider pl-6">
         MYSURU INTERNATIONAL SCHOOL
       </h2>
       <div className="flex flex-wrap w-[100%] justify-around text-white p-[1rem] mt-[2rem]">

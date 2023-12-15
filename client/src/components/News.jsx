@@ -1,10 +1,9 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { data2 } from "../data/info2";
 
 const News = () => {
   return (
-    <div className="flex flex-wrap justify-around p-10 mt-10 font-extrabold">
+    <div className="flex flex-wrap justify-around p-10 mt-10 font-extrabold bg-[#d3d3d3]">
       {data2.map((item) => (
         <div
           key={item.id}

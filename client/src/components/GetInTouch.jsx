@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 const GetInTouch = () => {
   return (
-    <div className="flex flex-col md:flex-row p-4 lg:p-10 bg-tertiary bg-center ">
-      <div className="lg:w-1/2 bg-white rounded-lg lg:py-[3rem] lg:px-8 flex flex-col items-start gap-6 shadow-lg p-4 mb-4 text-black ">
-        <h1 className="text-3xl font-bold text-black">Get in touch!</h1>
-        <p className="text-black">
+    <div className="flex flex-col md:flex-row p-4 lg:p-10 bg-[#d3d3d3] bg-center ">
+      <div className="lg:w-1/2 bg-[#8a2d87] rounded-lg lg:py-[3rem] lg:px-8 flex flex-col items-start gap-6 shadow-lg p-4 mb-4 text-black ">
+        <h1 className="text-3xl font-bold text-white">Get in touch!</h1>
+        <p className="text-white">
           Whether you have inquiries, suggestions, or would simply like to reach
           out, we welcome the opportunity to engage with you. Our team is here
           to provide the information you need and ensure your experience with us
@@ -36,8 +36,8 @@ const GetInTouch = () => {
             rows={5}
           />
           <button
-            className="bg-primary text-secondary px-8 py-[6px] rounded-md transition-all duration-300 hover:border outline-none font-bold hover:bg-secondary
-          hover:border-primary hover:text-primary hover:scale-95"
+            className="border bg-white text-[#8a2d87] px-8 py-[6px] rounded-md transition-all duration-300 hover:border outline-none font-bold hover:bg-[#8a2d87]
+          hover:border-white hover:text-white hover:scale-95"
           >
             Submit
           </button>

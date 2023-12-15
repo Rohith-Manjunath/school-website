@@ -1,11 +1,11 @@
 import logoImage from "../assets/images/logo-2-v2.png";
-import Image from "../assets/Background/ss1.png";
-import Button from "./Button";
+import Image from "../assets/Background/background_1.svg";
+import CTCButton from "./CTCButton";
 
 const Welcome = () => {
   return (
     <div
-      className="h-auto flex flex-col lg:flex-row justify-around mx-auto bg-[#01416f] p-5 text-white bg-cover"
+      className="h-auto flex flex-col lg:flex-row justify-around mx-auto bg-[#01416f] p-5 py-10 text-white bg-cover"
       style={{
         backgroundImage: `url(${Image})`,
       }}
@@ -13,10 +13,13 @@ const Welcome = () => {
       <div className="flex flex-col items-start justify-center gap-5 lg:w-[50%]">
         <div className="flex flex-col gap-1">
           <h2 className="text-white tracking-[2px] max-md:text-3xl text-5xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-            Welcome to <span className="school-name text-[#fff200]">MIS</span>
+            Welcome to{" "}
+            <span className="school-name text-[#d3d3d3] tracking-widest">
+              MIS
+            </span>
           </h2>
 
-          <p className="text-[#fff200] text-2xl tracking-[2px] font-semibold">
+          <p className="text-white text-2xl tracking-[2px] font-semibold">
             Empower. Excel. Educate
           </p>
         </div>
@@ -30,7 +33,8 @@ const Welcome = () => {
           school but a supportive family, dedicated to unlocking the full
           potential of each individual.
         </p>
-        <Button title="Enroll Today" bg="bg-red-500" />
+
+        <CTCButton title="Enroll Today" />
       </div>
       <div className="logo mt-5 lg:mt-0 hidden lg:flex">
         <img
