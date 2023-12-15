@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "create-vite": "^5.1.0"
   }
 }

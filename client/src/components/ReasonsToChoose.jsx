@@ -9,7 +9,7 @@ const ReasonsToChoose = () => {
           return (
             <div key={item.id}>
               <div className="text-center flex items-center justify-center h-[15rem]">
-                <img src={item.img} alt="" />
+              {item.img}
               </div>
               <div className="text-center flex flex-col gap-5">
                 <h2 className="font-semibold text-xl">{item.title}</h2>
