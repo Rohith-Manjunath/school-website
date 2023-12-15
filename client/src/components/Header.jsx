@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-center bg-[#d3d3d3] p-1 h-auto sticky z-20 top-0 max-md:h-[5rem]">
+    <header className="flex items-center justify-center bg-[#d3d3d3] p-1 h-auto sticky z-20 top-0 max-md:h-[5rem] shadow-2xl">
       {!show ? (
         <li
           className="font-bold text-[2rem] hidden text-[#8a2d87] relative max-md:block max-md:self-start m-[2rem] hover:cursor-pointer "

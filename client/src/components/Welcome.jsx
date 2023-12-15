@@ -40,7 +40,7 @@ const Welcome = () => {
         <img
           src={logoImage}
           alt="website-logo"
-          className="w-[20rem]"
+          className="w-[15rem] h-[15rem]"
           loading="lazy"
         />
       </div>
